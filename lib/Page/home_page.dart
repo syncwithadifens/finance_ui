@@ -130,8 +130,8 @@ class HomePage extends StatelessWidget {
               ),
             ),
             DraggableScrollableSheet(
-              initialChildSize: 0.4,
-              minChildSize: 0.4,
+              initialChildSize: 0.35,
+              minChildSize: 0.35,
               builder: (context, scrollController) => Container(
                   decoration: BoxDecoration(
                       color: Color(0xffF9F9F9),
