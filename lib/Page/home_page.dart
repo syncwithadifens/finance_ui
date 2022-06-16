@@ -135,7 +135,9 @@ class HomePage extends StatelessWidget {
               builder: (context, scrollController) => Container(
                   decoration: BoxDecoration(
                       color: Color(0xffF9F9F9),
-                      borderRadius: BorderRadius.circular(15)),
+                      borderRadius: BorderRadius.only(
+                          topLeft: Radius.circular(20),
+                          topRight: Radius.circular(20))),
                   child: ListView.builder(
                     controller: scrollController,
                     itemCount: 5,

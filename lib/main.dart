@@ -1,4 +1,3 @@
-import 'package:finance_app/Page/home_page.dart';
 import 'package:finance_app/Page/splash_page.dart';
 import 'package:finance_app/Theme/theme.dart';
 import 'package:flutter/material.dart';

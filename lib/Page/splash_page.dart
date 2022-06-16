@@ -1,4 +1,5 @@
 import 'package:finance_app/Page/home_page.dart';
+import 'package:finance_app/Theme/theme.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatefulWidget {
@@ -22,26 +23,26 @@ class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[200],
+      backgroundColor: bgColor,
       body: Center(
         child: Container(
           width: 200,
           height: 200,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(18),
-            color: Colors.grey[200],
+            color: bgColor,
             boxShadow: [
               BoxShadow(
                 offset: Offset(4, 4),
-                color: Colors.grey,
+                color: Colors.black,
                 blurRadius: 5,
                 spreadRadius: 1,
               ),
               BoxShadow(
                 offset: Offset(-4, -4),
-                color: Colors.white,
+                color: Colors.blueGrey,
                 blurRadius: 5,
-                spreadRadius: 1,
+                spreadRadius: 0,
               )
             ],
           ),
@@ -51,11 +52,14 @@ class _SplashPageState extends State<SplashPage> {
               Icon(
                 Icons.wallet,
                 size: 100,
+                color: Color(0xffF1C4A4),
               ),
               Text(
-                'Finance App',
+                'Digital Wallet',
                 style: TextStyle(
                   fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                  color: Color.fromARGB(255, 209, 133, 79),
                 ),
               ),
             ],
