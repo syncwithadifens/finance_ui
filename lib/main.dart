@@ -1,4 +1,5 @@
 import 'package:finance_app/Page/home_page.dart';
+import 'package:finance_app/Page/splash_page.dart';
 import 'package:finance_app/Theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
         SystemUiOverlayStyle(statusBarColor: bgColor));
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: SplashPage(),
     );
   }
 }

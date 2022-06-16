@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Image(
-                        image: AssetImage('assets/Icon Menu.png'),
+                        image: AssetImage('assets/iconMenu.png'),
                         width: 34,
                         height: 34,
                       ),
