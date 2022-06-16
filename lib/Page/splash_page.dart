@@ -34,13 +34,13 @@ class _SplashPageState extends State<SplashPage> {
             boxShadow: [
               BoxShadow(
                 offset: Offset(4, 4),
-                color: Colors.black,
+                color: goldColor,
                 blurRadius: 5,
                 spreadRadius: 1,
               ),
               BoxShadow(
                 offset: Offset(-4, -4),
-                color: Colors.blueGrey,
+                color: greyColor,
                 blurRadius: 5,
                 spreadRadius: 0,
               )
@@ -52,14 +52,14 @@ class _SplashPageState extends State<SplashPage> {
               Icon(
                 Icons.wallet,
                 size: 100,
-                color: Color(0xffF1C4A4),
+                color: Color.fromARGB(255, 230, 166, 120),
               ),
               Text(
                 'Digital Wallet',
                 style: TextStyle(
                   fontSize: 24,
-                  fontWeight: FontWeight.bold,
-                  color: Color.fromARGB(255, 209, 133, 79),
+                  fontWeight: FontWeight.w700,
+                  color: Colors.white70,
                 ),
               ),
             ],
